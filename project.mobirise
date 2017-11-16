@@ -1,0 +1,1785 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11.1",
+    "versionPublish": "3.12.1",
+    "name": "Fireworks, Food Trucks & Freedom Concert",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/logo-128x128-41.png",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Association of Poinciana Villages Lifestyle Events Program, Managed by First Service Residential Management presents July 2016 Fireworks, Food Trucks and Freedom Music Concert activity",
+        "meta_descr": "On July 1st, 2016 the Association of Poinciana Villages, via the Lifestyle Events Programs managed by FirstService Residential Management hosted the first-ever, Fireworks, Food Trucks and Freedom Music Concert for over 2000 community residents in attendance.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "alias": "unicore/components",
+          "_name": "menu2",
+          "_styles": {
+            ".navbar-inverse.scrolled": {
+              "background-color": "#111"
+            },
+            ".navbar-header a": {
+              "font-size": "12px"
+            }
+          },
+          "_customCSS": ".btn {\n  background: #EE578E;\n  background-image: -webkit-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -moz-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -ms-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -o-linear-gradient(top, #EE578E, #b82b87);\n  background-image: linear-gradient(to bottom, #EE578E, #b82b87);\n  border-color: white;\n  -webkit-border-radius: 28;\n  -moz-border-radius: 28;\n  border-radius: 28px;\n  font-family: Arial;\n  color: #ffffff;\n  font-size: 12px;\n  padding: 10px 20px 10px 20px;\n  text-decoration: none;\n}\n\n.btn:hover {\n  background: #EE578E;\n  text-decoration: none;\n}\n\na:hover {\n    color: hotpink;\n}",
+          "_anchor": "menu2-2",
+          "_params": {
+            "color": "#111",
+            "logo": "true",
+            "brandName": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/new-apv-lifestyle-logo-970x400pxl-970x400-40-310x128-19.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Lifestyle Events Program of Poinciana Villages",
+              "link": "http://poincianalifestyle.com",
+              "title": "Lifestyle Events Program of Poinciana Villages",
+              "linkInNewWindow": false
+            }
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"navbar-brand brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Association of Poinciana Villages</a>",
+          "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#form5-32\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-pencil mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Newsletter</a></li>",
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#top\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box5-28\"><span class=\"fa fa-video-camera mbr-iconfont mbr-iconfont-btn\"></span>Videos</a> <a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#gallery1-26\"><span class=\"fa fa-camera-retro mbr-iconfont mbr-iconfont-btn\"></span>Photos</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#contacts4-33\"><span class=\"mdi-communication-email mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header9",
+          "_styles": {
+            "H3": {
+              "font-size": "60px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "UL": {
+              "color": "#f52549"
+            }
+          },
+          "_customCSS": ".btn {\n  background: #EE578E;\n  background-image: -webkit-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -moz-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -ms-linear-gradient(top, #EE578E, #b82b87);\n  background-image: -o-linear-gradient(top, #EE578E, #b82b87);\n  background-image: linear-gradient(to bottom, #EE578E, #b82b87);\n  border-color: white;  \n  -webkit-border-radius: 28;\n  -moz-border-radius: 28;\n  border-radius: 28px;\n  font-family: Arial;\n  color: #ffffff;\n  font-size: 16px;\n  padding: 10px 20px 10px 20px;\n  text-decoration: none;\n}\n\n.btn:hover {\n  background: #EE578E;\n  text-decoration: none;\n}",
+          "_anchor": "header9-0",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/16.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/SIzGXawyCNY?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
+          },
+          "title": "Fireworks &amp;<br>Freedom <br>Concert!",
+          "text": "<p>On July 1st, 2016, The LIFESTYLE Events Program of the Association of Poinciana Villages hosted over 2000 community residents, along with local political figures and sponsoring businesses, treating all to 10 of the top food trucks in central Florida, the top 2 dance bands in Orlando and our first-ever, spectacular fireworks display!</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#msg-box5-28\"><span class=\"mdi-av-videocam mbr-iconfont mbr-iconfont-btn\"></span>View Event Videos</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-lady-liberty-uncle-sam-logos-transparency-1324x989-85.png",
+              "link": "http://apvcommunity.com",
+              "alt": "Association of Poinciana Villages Lifestyle Programs Event - Fireworks, Food Trucks and Freedom Music Concert",
+              "title": "APV Fireworks, Food Trucks and Freedom Music Concert July 1st 2016",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "counters2",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(34, 34, 34);\">\n    <div id=\"stats2\" class=\"bg-dark\" style=\"padding-top: 5px; padding-bottom: 5px;\">\n        \n<div id=\"stats2\" class=\"bg-dark\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-3 col-sm-3\">\n\t\t\t\t\t<div class=\"stats2-info\">\n                      <p><img src=\"wrongname.gif\" alt=\"HTML5 Icon\" style=\"width:128px;height:128px;\"></p>\n\t\t\t\t\t\t<p><span class=\"count\">2703</span></p>\n\t\t\t\t\t\t<h2>FIREWORK EXPLOSIONS</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-3\">\n\t\t\t\t\t<div class=\"stats2-info\">\n                      <p><img src=\"wrongname.gif\" alt=\"HTML5 Icon\" style=\"width:128px;height:128px;\"></p>\n\t\t\t\t\t\t<p><span class=\"count\">10</span></p>\n\t\t\t\t\t\t<h2>FOOD TRUCKS FED</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-3\">\n\t\t\t\t\t<div class=\"stats2-info\">\n                      <p><img src=\"wrongname.gif\" alt=\"HTML5 Icon\" style=\"width:128px;height:128px;\"></p>\n\t\t\t\t\t\t<p><span class=\"count\">23</span></p>\n\t\t\t\t\t\t<h2>DANCE SONGS SUNG</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-3 col-sm-3\">\n\t\t\t\t\t<div class=\"stats2-info\">\n                      <p><img src=\"wrongname.gif\" alt=\"HTML5 Icon\" style=\"width:128px;height:128px;\"></p>\n\t\t\t\t\t\t<p><span class=\"count\">01</span></p>\n\t\t\t\t\t\t<h2>DROPPED ICE CREAM</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true,
+          "_params": {
+            "elements": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "iconsColor": "#fff",
+            "icon1": "fa-fireworks",
+            "icon2": "fa-picture-o",
+            "icon3": "fa-rocket",
+            "icon4": "fa-globe"
+          },
+          "number1": "899",
+          "title1": "Savings",
+          "number2": "1783",
+          "title2": "Photos",
+          "number3": "1247",
+          "title3": "Rockets",
+          "number4": "3777",
+          "title4": "ireGlobes",
+          "_anchor": "counters2-3"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "slider",
+          "_customHTML": "<section class=\"mbr-slider mbr-section mbr-section--no-padding carousel slide\" data-ride=\"carousel\" data-wrap=\"true\" data-interval=\"7000\" style=\"background-color: rgb(0, 0, 0);\">\n    <div class=\"mbr-section__container\">\n        <div>\n            <ol class=\"carousel-indicators\">\n                <li data-app-prevent-settings=\"\" data-target=\"#slider-9\" class=\"active\" data-slide-to=\"0\"></li><li data-app-prevent-settings=\"\" data-target=\"#slider-9\" data-slide-to=\"1\"></li><li data-app-prevent-settings=\"\" data-target=\"#slider-9\" data-slide-to=\"2\"></li>\n            </ol>\n            <div class=\"carousel-inner\" role=\"listbox\">\n                <div class=\"mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height active\" style=\"background-color: rgb(0, 0, 0);\">\n                    <div class=\"mbr-box__magnet mbr-box__magnet--center-center mbr-box__magnet--sm-padding\">\n                                            \n                        <div class=\" container\">\n                            \n                            <div class=\"row\">\n                                <div class=\" col-md-8 col-md-offset-2\">  \n\n                                <div class=\"mbr-hero\">\n                                    <h1 class=\"mbr-hero__text mbr-editable-content\" code-editable-id=\"93\"><font face=\"Open Sans, sans-serif\"><span style=\"font-weight: normal;\"><em>I have lived in my home in Poinciana for 8yrs now and haven’t seen much change in that time, except for the last year or so. Then I went to your fireworks event and was so grateful for all you did! I was very impressed and I love the work FirstService Residential is putting back into the community! I just wanted to say how much my family enjoyed the event and I appreciate of of the efforts you and your company put into the events. I really hope to see more of it! Well done!</em></span></font></h1>\n\n                                    <p class=\"mbr-hero__subtext mbr-editable-content\" code-editable-id=\"94\"><strong>- Milissa &nbsp;F. &nbsp;(Poinciana Villages Homeowner)</strong></p>\n                                </div>\n                                \n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height\" style=\"background-color: rgb(0, 0, 0);\">\n                    <div class=\"mbr-box__magnet mbr-box__magnet--center-center mbr-box__magnet--sm-padding\">\n                                            \n                        <div class=\" container\">\n                            \n                            <div class=\"row\">\n                                <div class=\" col-md-8 col-md-offset-2\">  \n\n                                <div class=\"mbr-hero\">\n                                    <h1 class=\"mbr-hero__text mbr-editable-content\" code-editable-id=\"95\"><span style=\"font-weight: normal;\"><em>The event last night was fantastic!  My family and I had a blast! My 3 kids were really looking forward to seeing the fireworks. My original intent was just to stay in the car and watch the fireworks, but when the kids saw there was a band they wanted to get out of the car. I am so glad that we did! We are definitely looking forward to such future events! I've owned my home for 11 years and I am very proud to be a Poinciana resident. I agree that these types of activities foster a sense of community.  Keep up the good work!</em></span></h1>\n\n                                    <p class=\"mbr-hero__subtext mbr-editable-content\" code-editable-id=\"96\"><strong>- Cyd A.&nbsp;(Poinciana Villages Homeowner)</strong></p>\n                                </div>\n                                \n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height\" style=\"background-color: rgb(0, 0, 0);\">\n                    <div class=\"mbr-box__magnet mbr-box__magnet--center-center mbr-box__magnet--sm-padding\">\n                                            \n                        <div class=\" container\">\n                            \n                            <div class=\"row\">\n                                <div class=\" col-md-8 col-md-offset-2\">  \n\n                                <div class=\"mbr-hero\">\n                                    <h1 class=\"mbr-hero__text mbr-editable-content\" code-editable-id=\"97\"><span style=\"font-weight: normal;\"><em>This was an astounding event!  The music was outstanding, the food great and the fireworks were wonderful! I am so glad to have seen the large number of residents enjoying themselves and part-taking of all that was offered. Everyone resident should have come and taken part of this event which included all cultures in our community! Thank you for a fantastic evening!  Keep up the great work!</em></span><span style=\"font-weight: normal;\"></span></h1>\n\n                                    <p class=\"mbr-hero__subtext mbr-editable-content\" code-editable-id=\"98\"><strong>- Diane M. (Poinciana Villages Homeowner)</strong></p>\n                                </div>\n                                \n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <a data-app-prevent-settings=\"\" class=\"left carousel-control\" role=\"button\" data-slide=\"prev\" href=\"#slider-9\">\n                <span class=\"glyphicon glyphicon-menu-left\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n            </a>\n            <a data-app-prevent-settings=\"\" class=\"right carousel-control\" role=\"button\" data-slide=\"next\" href=\"#slider-9\">\n                <span class=\"glyphicon glyphicon-menu-right\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n            </a>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\nH1 {\n\tfont-size: 18px;\n\tfont-family: 'Open Sans', sans-serif;\n}\nP {\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-size: 20px;\n}\nSPAN {\n\tfont-family: 'Open Sans Condensed', sans-serif;\n\tfont-size: 18px;\n}\nI {\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-size: 19px;\n}\nB {\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-size: 20px;\n}\n",
+          "_customTemplate": true,
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#000000",
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/13-fhd.jpg",
+                "contentAlign": "center",
+                "overlay": false,
+                "showTitle": true,
+                "title": "<font face=\"Open Sans, sans-serif\"><span style=\"font-weight: normal;\"><i>I have lived in my home in Poinciana for 8yrs now and haven’t seen much change in that time, except for the last year or so. Then I went to your fireworks event and was so grateful for all you did! I was very impressed and I love the work FirstService Residential is putting back into the community! &nbsp;I just wanted to say how much my family enjoyed the event and I appreciate of of the efforts you and your company put into the events. I really hope to see more of it! &nbsp; &nbsp;&nbsp;</i></span></font><i style=\"font-size: 18px; font-weight: normal;\">Well done!</i><i style=\"font-size: 18px; font-weight: normal;\"><br></i>",
+                "showText": true,
+                "text": "<b>- Milissa &nbsp;F. &nbsp;(Poinciana Villages Homeowner)</b>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/4.jpg",
+                "contentAlign": "center",
+                "overlay": false,
+                "showTitle": true,
+                "title": "<span style=\"font-weight: normal;\"><i>The event last night was fantastic!  My family and I had a blast! My 3 kids were really looking forward to seeing the fireworks. My original intent was just to stay in the car and watch the fireworks, but when the kids saw there was a band they wanted to get out of the car. I am so glad that we did! We are definitely looking forward to such future events! I've owned my home for 11 years and I am very proud to be a Poinciana resident. I agree that these types of activities foster a sense of community.  Keep up the good work!</i></span>",
+                "showText": true,
+                "text": "<b>- Cyd A.&nbsp;(Poinciana Villages Homeowner)</b>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/15-revert-fhd.jpg",
+                "contentAlign": "center",
+                "overlay": false,
+                "showTitle": true,
+                "title": "<span style=\"font-weight: normal;\"><i>This was an astounding event!  The music was outstanding, the food great and the fireworks were wonderful! I am so glad to have seen the large number of residents enjoying themselves and part-taking of all that was offered. Everyone resident should have come and taken part of this event which included all cultures in our community! Thank you for a fantastic evening!  Keep up the great work!</i></span><span style=\"font-weight: normal;\"><i><br></i></span>",
+                "showText": true,
+                "text": "<b>- Diane M. (Poinciana Villages Homeowner)</b>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_anchor": "slider-9"
+        },
+        {
+          "headerAlign": "left",
+          "alias": "unicore/components",
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_customCSS": ".btn {\n  background: #E24D8C;\n  background-image: -webkit-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -moz-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -ms-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -o-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: linear-gradient(to bottom, #E24D8C, #b82b6a);\n  -webkit-border-radius: 28;\n  -moz-border-radius: 28;\n  border-radius: 28px;\n  font-family: Arial;\n  color: #ffffff;\n  font-size: 13px;\n  padding: 10px 20px 10px 20px;\n  border: solid #ffffff 2px;\n  text-decoration: none;\n}\n\n.btn:hover {\n  background: #E24D8C;\n  text-decoration: none;\n}",
+          "_anchor": "msg-box5-28",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-lady-liberty-uncle-sam-2-2000x1377-16.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=MJcbsnolSt8",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on"
+            }
+          },
+          "title": "Fireworks &amp; Freedom Concert",
+          "text": "\"The fireworks and music concert event last night was fantastic!  My family and I had a blast!&nbsp;I am very proud to be a Poinciana resident and I agree that these types of activities foster a true sense of community.  Keep up the good work!\"<br><br><b>- Cyd A. (Poinciana Villages Homeowner)</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#gallery1-26\">View Event Images</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/apv-fireworks-2000wpxl-2000x1333-17-2000x1333-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apv-fireworks-2000wpxl-2000x1333-17.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-201-2000x1333-1-2000x1333-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-201-2000x1333-1.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-199-2000x1333-86-2000x1333-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-199-2000x1333-86.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-203-2000x1333-78-2000x1333-19.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-203-2000x1333-78.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-206-2000x1333-40-2000x1333-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-206-2000x1333-40.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-190-2000x1333-33-2000x1333-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-190-2000x1333-33.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-197-2000x1333-10-2000x1333-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-197-2000x1333-10.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-188-2000x1333-7-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-188-2000x1333-7.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-26",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-81-2000x1333-3-2000x1333-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-81-2000x1333-3.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-82-2000x1333-19-2000x1333-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-82-2000x1333-19.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-83-2000x1333-42-2000x1333-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-83-2000x1333-42.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-84-2000x1333-74-2000x1333-85.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-84-2000x1333-74.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-86-2000x1333-97-2000x1333-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-86-2000x1333-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-87-2000x1333-72-2000x1333-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-87-2000x1333-72.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-90-2000x1333-76-2000x1333-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-90-2000x1333-76.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-92-2000x1333-32-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-92-2000x1333-32.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-10",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-93-2000x1333-45-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-93-2000x1333-45.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-7-2000x1333-11-2000x1333-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-7-2000x1333-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-62-2000x1333-55-2000x1333-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-62-2000x1333-55.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-94-2000x1333-97-2000x1333-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-94-2000x1333-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-95-2000x1333-93-2000x1333-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-95-2000x1333-93.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-96-2000x1333-80-2000x1333-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-96-2000x1333-80.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-97-2000x1333-90-2000x1333-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-97-2000x1333-90.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-98-2000x1333-42-2000x1333-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-98-2000x1333-42.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-11",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-99-2000x1333-69-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-99-2000x1333-69.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-100-2000x1333-74-2000x1333-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-100-2000x1333-74.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-101-2000x1333-99-2000x1333-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-101-2000x1333-99.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-102-2000x1333-39-2000x1333-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-102-2000x1333-39.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-103-2000x1333-13-2000x1333-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-103-2000x1333-13.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-104-2000x1333-86-2000x1333-29.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-104-2000x1333-86.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-105-2000x1333-80-2000x1333-79.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-105-2000x1333-80.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-106-2000x1333-46-2000x1333-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-106-2000x1333-46.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-108-2000x1333-48-2000x1333-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-108-2000x1333-48.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-8-2000x1333-96-2000x1333-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-8-2000x1333-96.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-7-2000x1333-11-2000x1333-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-7-2000x1333-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-9-2000x1333-71-2000x1333-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-9-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-109-2000x1333-41-2000x1333-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-109-2000x1333-41.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-79-2000x1333-85-2000x1333-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-79-2000x1333-85.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-111-2000x1333-5-2000x1333-7.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-111-2000x1333-5.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-112-2000x1333-42-2000x1333-57.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-112-2000x1333-42.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-13",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-113-2000x1333-37-2000x1333-63.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-113-2000x1333-37.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-114-2000x1333-57-2000x1333-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-114-2000x1333-57.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-115-2000x1333-83-2000x1333-15.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-115-2000x1333-83.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-116-2000x1333-9-2000x1333-10.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-116-2000x1333-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-118-2000x1333-13-2000x1333-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-118-2000x1333-13.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-120-2000x1333-56-2000x1333-75.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-120-2000x1333-56.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-123-2000x1333-31-2000x1333-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-123-2000x1333-31.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-124-2000x1333-51-2000x1333-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-124-2000x1333-51.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-14",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-193955-2000x1125-11-2000x1125-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-193955-2000x1125-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-202222-lls-2000x1125-97-2000x1125-7.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-202222-lls-2000x1125-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-202235-lls-2000x1125-36-2000x1125-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-202235-lls-2000x1125-36.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-202257-lls-2000x1125-98-2000x1125-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-202257-lls-2000x1125-98.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-202313-lls-2000x1125-82-2000x1125-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-202313-lls-2000x1125-82.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-202334-lls-2000x1125-22-2000x1125-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-202334-lls-2000x1125-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-173921-2000x1125-32-2000x1125-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-173921-2000x1125-32.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160701-212828-2000x1125-25-2000x1125-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160701-212828-2000x1125-25.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-25",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-125-2000x1333-98-2000x1333-97.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-125-2000x1333-98.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-126-2000x1333-13-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-126-2000x1333-13.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-127-2000x1333-70-2000x1333-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-127-2000x1333-70.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-128-2000x1333-79-2000x1333-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-128-2000x1333-79.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-131-2000x1333-96-2000x1333-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-131-2000x1333-96.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-132-2000x1333-67-2000x1333-16.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-132-2000x1333-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-133-2000x1333-6-2000x1333-3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-133-2000x1333-6.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-134-2000x1333-33-2000x1333-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-134-2000x1333-33.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-15",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-138-2000x1333-4-2000x1333-98.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-138-2000x1333-4.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-139-2000x1333-73-2000x1333-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-139-2000x1333-73.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-140-2000x1333-84-2000x1333-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-140-2000x1333-84.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-141-2000x1333-3-2000x1333-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-141-2000x1333-3.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-142-2000x1333-55-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-142-2000x1333-55.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-143-2000x1333-22-2000x1333-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-143-2000x1333-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-144-2000x1333-60-2000x1333-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-144-2000x1333-60.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-145-2000x1333-13-2000x1333-74.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-145-2000x1333-13.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-16",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-146-2000x1333-80-2000x1333-12.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-146-2000x1333-80.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-148-2000x1333-96-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-148-2000x1333-96.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-149-2000x1333-71-2000x1333-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-149-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-153-2000x1333-19-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-153-2000x1333-19.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-155-2000x1333-58-2000x1333-54.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-155-2000x1333-58.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-157-2000x1333-72-2000x1333-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-157-2000x1333-72.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-158-2000x1333-69-2000x1333-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-158-2000x1333-69.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-159-2000x1333-9-2000x1333-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-159-2000x1333-9.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-17",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-160-2000x1333-0-2000x1333-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-160-2000x1333-0.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-171-2000x1333-83-2000x1333-30.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-171-2000x1333-83.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-172-2000x1333-88-2000x1333-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-172-2000x1333-88.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-177-2000x1333-89-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-177-2000x1333-89.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-178-2000x1333-95-2000x1333-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-178-2000x1333-95.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-179-2000x1333-76-2000x1333-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-179-2000x1333-76.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-176-2000x1333-15-2000x1333-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-176-2000x1333-15.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-25-2000x1333-12-2000x1333-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-25-2000x1333-12.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-18",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-218-2000x1333-55-2000x1333-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-218-2000x1333-55.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-221-2000x1333-9-2000x1333-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-221-2000x1333-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-224-2000x1333-59-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-224-2000x1333-59.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-226-2000x1333-48-2000x1333-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-226-2000x1333-48.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-227-2000x1333-28-2000x1333-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-227-2000x1333-28.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-228-2000x1333-65-2000x1333-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-228-2000x1333-65.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-229-2000x1333-72-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-229-2000x1333-72.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-161-2000x1333-94-2000x1333-99.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-161-2000x1333-94.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-19",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-162-2000x1333-34-2000x1333-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-162-2000x1333-34.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-163-2000x1333-9-2000x1333-82.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-163-2000x1333-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-164-2000x1333-22-2000x1333-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-164-2000x1333-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-170-2000x1333-41-2000x1333-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-170-2000x1333-41.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-10-2000x1333-76-2000x1333-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-10-2000x1333-76.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-11-2000x1333-7-2000x1333-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-11-2000x1333-7.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-12-2000x1333-51-2000x1333-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-12-2000x1333-51.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-13-2000x1333-56-2000x1333-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-13-2000x1333-56.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-20",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-15-2000x1333-41-2000x1333-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-15-2000x1333-41.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-16-2000x1333-57-2000x1333-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-16-2000x1333-57.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-17-2000x1333-89-2000x1333-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-17-2000x1333-89.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-18-2000x1333-19-2000x1333-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-18-2000x1333-19.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-19-2000x1333-67-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-19-2000x1333-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-20-2000x1333-53-2000x1333-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-20-2000x1333-53.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-21-2000x1333-85-2000x1333-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-21-2000x1333-85.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-22-2000x1333-86-2000x1333-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-22-2000x1333-86.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-21",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-26-2000x1333-26-2000x1333-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-26-2000x1333-26.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-27-2000x1333-15-2000x1333-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-27-2000x1333-15.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-28-2000x1333-35-2000x1333-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-28-2000x1333-35.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-29-2000x1333-77-2000x1333-74.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-29-2000x1333-77.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-22-2000x1333-99-2000x1333-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-22-2000x1333-99.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-34-2000x1333-18-2000x1333-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-34-2000x1333-18.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-24-2000x1333-71-2000x1333-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-24-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-35-2000x1333-62-2000x1333-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-35-2000x1333-62.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-22",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-37-2000x1333-24-2000x1333-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-37-2000x1333-24.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-38-2000x1333-87-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-38-2000x1333-87.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-39-2000x1333-61-2000x1333-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-39-2000x1333-61.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-40-2000x1333-37-2000x1333-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-40-2000x1333-37.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-41-2000x1333-46-2000x1333-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-41-2000x1333-46.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-36-2000x1333-91-2000x1333-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-36-2000x1333-91.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-33-2000x1333-35-2000x1333-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-33-2000x1333-35.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-31-2000x1333-7-2000x1333-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-31-2000x1333-7.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-23",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-45-2000x1333-12-2000x1333-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-45-2000x1333-12.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-63-2000x1333-60-2000x1333-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-63-2000x1333-60.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-64-2000x1333-90-2000x1333-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-64-2000x1333-90.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-65-2000x1333-6-2000x1333-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-65-2000x1333-6.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-66-2000x1333-68-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-66-2000x1333-68.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-67-2000x1333-15-2000x1333-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-67-2000x1333-15.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-54-2000x1333-71-2000x1333-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-54-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-99-2000x1333-75-2000x1333-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-99-2000x1333-75.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-29",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-2-2000x1333-42-2000x1333-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-2-2000x1333-42.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-3-2000x1333-97-2000x1333-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-3-2000x1333-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-5-2000x1333-3-2000x1333-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-5-2000x1333-3.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-6-2000x1333-1-2000x1333-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-6-2000x1333-1.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-30-2000x1333-46-2000x1333-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-30-2000x1333-46.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-231-2000x1333-56-2000x1333-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-231-2000x1333-56.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-232-2000x1333-91-2000x1333-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-232-2000x1333-91.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-233-2000x1333-15-2000x1333-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-233-2000x1333-15.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-24",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-44-2000x1333-13-2000x1333-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-44-2000x1333-13.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-53-2000x1333-24-2000x1333-19.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-53-2000x1333-24.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-46-2000x1333-20-2000x1333-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-46-2000x1333-20.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-47-2000x1333-99-2000x1333-57.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-47-2000x1333-99.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-49-2000x1333-22-2000x1333-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-49-2000x1333-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-50-2000x1333-11-2000x1333-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-50-2000x1333-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-48-2000x1333-15-2000x1333-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-48-2000x1333-15.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-52-2000x1333-19-2000x1333-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-52-2000x1333-19.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-28",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-56-2000x1333-11-2000x1333-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-56-2000x1333-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-58-2000x1333-61-2000x1333-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-58-2000x1333-61.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-61-2000x1333-37-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-61-2000x1333-37.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-55-2000x1333-43-2000x1333-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-55-2000x1333-43.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-68-2000x1333-22-2000x1333-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-68-2000x1333-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-69-2000x1333-50-2000x1333-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-69-2000x1333-50.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-70-2000x1333-30-2000x1333-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-70-2000x1333-30.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-71-2000x1333-2-2000x1333-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-71-2000x1333-2.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-30",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-73-2000x1333-29-2000x1333-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-73-2000x1333-29.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-74-2000x1333-50-2000x1333-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-74-2000x1333-50.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-76-2000x1333-66-2000x1333-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-76-2000x1333-66.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-77-2000x1333-96-2000x1333-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/07-01-16-fireworks-food-trucks-freedom-concert-77-2000x1333-96.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-31",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "form5",
+          "_customCSS": "H5 {\n\tfont-size: 30px;\n}\n.btn {\n  background: #E24D8C;\n  background-image: -webkit-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -moz-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -ms-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: -o-linear-gradient(top, #E24D8C, #b82b6a);\n  background-image: linear-gradient(to bottom, #E24D8C, #b82b6a);\n  -webkit-border-radius: 10;\n  -moz-border-radius: 10;\n  border-radius: 11px;\n  font-family: Arial;\n  color: #ffffff;\n  font-size: 10px;\n  padding: 10px 20px 10px 20px;\n  border: solid #ffffff 2px;\n  text-decoration: none;\n}\n\n.btn:hover {\n  background: #E24D8C;\n  text-decoration: none;\n}",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(34, 34, 34);\">\n    <div class=\"elements-content bg-dark subscribe-elt subscribe-elt3\" style=\"padding-top: 50px; padding-bottom: 50px;\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2\">\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"32\">E-subscribe To APV LIFESTYLE Events Newsletter</h5>\n                <p class=\"mbr-editable-content\" code-editable-id=\"33\">We don't like spam either - &nbsp;So expect only &nbsp;informative and relevant community news...</p>\n\n                <div data-form-alert=\"true\">\n                    <div class=\"hide\" data-form-alert-success=\"true\">Thank you for kindly subscribing to your LIFESTYLE upcoming events newsletter - We truly appreciate YOU!</div>\n                </div>\n                <form class=\"intro-newsletter\" action=\"https://mobirise.com/\" method=\"post\">\n                    <input type=\"hidden\" value=\"\" data-form-email=\"true\">\n\n                    <input type=\"email\" name=\"email\" required=\"\" placeholder=\"Your Email Address Here\">\n\n                    <div><a class=\"btn btn-primary btn-block mbr-editable-button\" type=\"submit\" code-editable-id=\"34\">Subscribe</a></div>\n                </form>\n            </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "E-subscribe To APV LIFESTYLE Events Newsletter",
+          "text": "We don't like spam either - &nbsp;So expect only &nbsp;informative and relevant community news...",
+          "form": {
+            "action": "jazz.cannon@fsresidential.com",
+            "alerts": {
+              "success": "Thank you for kindly subscribing to your LIFESTYLE upcoming events newsletter - We truly appreciate YOU!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Your Email Address Here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-block\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\"><span class=\"fa fa-pencil mbr-iconfont mbr-iconfont-btn\"></span>E-Subscribe</a>",
+          "_anchor": "form5-32"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "contacts4",
+          "_customCSS": ".btn {\n  background: #E24D8C;\n  background-image: -webkit-linear-gradient(top, #E24D8C, #b82b6f);\n  background-image: -moz-linear-gradient(top, #E24D8C, #b82b6f);\n  background-image: -ms-linear-gradient(top, #E24D8C, #b82b6f);\n  background-image: -o-linear-gradient(top, #E24D8C, #b82b6f);\n  background-image: linear-gradient(to bottom, #E24D8C, #b82b6f);\n  -webkit-border-radius: 28;\n  -moz-border-radius: 28;\n  border-radius: 28px;\n  font-family: Arial;\n  color: #ffffff;\n  font-size: 14px;\n  padding: 10px 20px 10px 20px;\n  text-decoration: none;\n}\n\n.btn:hover {\n  background: #E24D8C;\n  text-decoration: none;\n}",
+          "_styles": {
+            "H1": {
+              "font-size": "20px"
+            },
+            "H5": {
+              "text-align": "center"
+            }
+          },
+          "coord": [
+            28.1298421,
+            -81.46968879999997
+          ],
+          "_anchor": "contacts4-33",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "googleMap": {
+              "placeId": "ChIJtcaxrqlZwokRfwmmibzPsTU",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "title1": "Association of Poinciana Village, Inc.",
+          "text1": "<b>Location:</b> 401 Walnut St., Poinciana, FL 34759<br><br>The Association of Poinciana Villages &amp; FirstService Residential Management are introducing new community Lifestyle Programs which are designed to foster friendships among neighbors and create lasting family memories!",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/AssociationofPoincianaVillages/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "Community Campus Hours:<br>Monday - Friday &nbsp; 6AM - 6PM",
+          "title": "Contact APV Lifestyle Programs",
+          "form": {
+            "action": "jazz.cannon@fsresidential.com",
+            "alerts": {
+              "success": "Thank you so verymuch for taking the time to contact the APV  LIFESTYLE Events Program! We really do appreciate YOU and will respond to your query in a timely fashion - Typically within 24 - 48 hours of receipt..."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Full Name Here"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Your Email Address Here"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Your Message Here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-ico btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">&nbsp;Send Us Message<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "footer1",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(17, 17, 17);\">\n    <div class=\"footer-copy\" style=\"padding-top: 20px; padding-bottom: 20px;\">\n        \n        <div class=\"container mbr-editable-content\" code-editable-id=\"86\">© 2016 <a href=\"http://apvcommunity.com\" target=\"_blank\"><font color=\"#E24D8C\">Association of Poinciana Villages, Inc.</font></a>&nbsp; - &nbsp;All rights reserved.</div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true,
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#111",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "text": "© 2016 <a href=\"http://apvcommunity.com\" target=\"_blank\">Association of Poinciana Villages, Inc.</a>&nbsp; - &nbsp;All rights reserved.",
+          "_anchor": "footer1-82"
+        }
+      ]
+    }
+  }
+}
